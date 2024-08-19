@@ -1,0 +1,121 @@
+body {
+    background-color: white;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    opacity: 0;
+  }
+  
+  .contentOne {
+    background-color: rgb(154, 233, 118);
+    padding: 15px;
+  }
+
+
+  .headerMain {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #7fc479 30%, #ea047e 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 5px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .headerOne,
+  .img-container,
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .headOne,
+  .answerOne {
+    text-transform: uppercase;
+    color: green;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .btn-one,
+  .btn-two {
+    padding: 10px;
+    background-color: #f27868;
+    font-size: 25px;
+    border: 1px solid green;
+    color: green;
+    width: 120px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
+  
+  /*-------*/
+  .contentTwo {
+    background-color: #ea047e;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .headTwo,
+  .answerTwo {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    color: #fce700;
+    text-align: center;
+  }
+  
+  .itemPhoto {
+    margin: 20px;
+  }
+  
+  .input-box {
+    width: 60vh;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .item {
+    position: relative;
+  }
+  
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    background-color: #fff;
+    color: #ff6d28;
+    padding: 5px;
+  }
+  
+  @media all and (max-width: 800px) {
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media all and (max-width: 500px) {
+    .itemPhoto {
+      width: 300px;
+      height: 400px;
+    }
+  
+    .imgOne {
+      width: 350px;
+      height: 250px;
+    }
+  }
+  
